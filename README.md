@@ -74,7 +74,7 @@
   <input value='&copy;&mdash;&ldpuo;'/>
   ```
 
-  但是不能在 JSX 中动态的输出 HTML 实体，将得到直接的文本输出(&copy;&mdash;&ldpuo;)
+  但是不能在 JSX 中动态的输出 HTML 实体，将得到直接的文本输出(`&copy;&mdash;&ldpuo;`)
 
   ```JSX
   var specialChars = '&copy;&mdash;&ldpuo;'
